@@ -1,3 +1,4 @@
+console.log('enter content.ts')
 chrome.runtime.onMessage.addListener((message, _, sendResponse: (resp: object) => void) => {
   (async () => {
     if (message.type === "SET_DATE_RANGE") {
@@ -19,6 +20,7 @@ chrome.runtime.onMessage.addListener((message, _, sendResponse: (resp: object) =
       }
     }
   })();
-
+  console.log('content planning to call sendResponse to SET_DATE_RANGE asynchronously'); 
   return true; // Keep the message channel open for the asynchronous sendResponse
 });
+console.log('exit content.ts')
