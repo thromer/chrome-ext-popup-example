@@ -26,7 +26,7 @@ chrome.runtime.onMessage.addListener((message) => {
   }
   // TODO true?
   console.log('handled status message synchronously I think');
-  return true;
+  return false;
 });
 
 function updateStatus(status: string) {
