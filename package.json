@@ -1,0 +1,24 @@
+{
+  "name": "chrome-ext-popup-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thromer/chrome-ext-popup-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thromer/chrome-ext-popup-example/issues"
+  },
+  "homepage": "https://github.com/thromer/chrome-ext-popup-example#readme",
+  "description": "",
+  "dependencies": {
+    "chrome-types": "^0.1.327",
+    "typescript": "^5.7.2"
+  }
+}
